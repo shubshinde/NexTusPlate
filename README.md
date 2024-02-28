@@ -3,8 +3,8 @@
   <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/9113740/201498152-b171abb8-9225-487a-821c-6ff49ee48579.png">
 </picture>
 
-<div align="center"><strong>Next.js 14 Admin Dashboard Starter Template With Shadcn-ui</strong></div>
-<div align="center">Built with the Next.js App Router</div>
+<h1 align="center">NexTusPlate</h1>
+<div align="center">Next.js 14 Admin Dashboard Starter Template With Shadcn-ui</div>
 <br />
 <div align="center">
 <a href="https://next-shadcn-dashboard-starter.vercel.app">View Demo</a>
@@ -54,3 +54,20 @@ Follow these steps to clone the repository and start the development server:
 - `npm run dev`
 
 You should now be able to access the application at http://localhost:3000.
+
+## Directus Data Models
+1. Company
+   
+<img src="https://raw.githubusercontent.com/shubshinde/NexTusPlate/master/screenshots/company_data-model.png.png">
+
+<hr>
+
+2. Employee
+
+<img src="https://raw.githubusercontent.com/shubshinde/NexTusPlate/master/screenshots/employee_data-model.png">
+
+<hr>
+
+---------------- TIP. Dont forget to turn on REST access for new models  ------------------
+
+<img src="https://raw.githubusercontent.com/shubshinde/NexTusPlate/master/screenshots/user-access.png">
