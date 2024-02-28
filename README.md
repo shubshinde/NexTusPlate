@@ -7,7 +7,7 @@
 <div align="center">Next.js 14 Admin Dashboard Starter Template With Shadcn-ui</div>
 <br />
 <div align="center">
-<a href="https://next-shadcn-dashboard-starter.vercel.app">View Demo</a>
+<a href="#">View Demo</a>
 <span>
 </div>
 
@@ -46,7 +46,7 @@ This is a starter template using the following stack:
 
 Follow these steps to clone the repository and start the development server:
 
-- `git clone https://github.com/Kiranism/next-shadcn-dashboard-starter.git`
+- `git clone https://github.com/shubshinde/NexTusPlate.git`
 - `npm install`
 - Create a `.env.local` file by copying the example environment file:
   `cp env.example.txt .env.local`
@@ -55,7 +55,21 @@ Follow these steps to clone the repository and start the development server:
 
 You should now be able to access the application at http://localhost:3000.
 
-## Directus Data Models
+<hr>
+<hr>
+
+# # Setup Directus CMS using Docker
+1. Create seperate folder for hosting Directus with Docker.
+2. Copy **docker-compose.yml** from `/docker-script/docker-compose.yml` file to that emply folder.
+3. Open terminal in that folder
+4. Run `docker compose up` (Make sure docker client is up and running)
+
+-- TIP: Login credentails for Directus CMS can be found at bottom of 'docker-compose.yml' file.
+
+<hr>
+<hr>
+
+## * Directus Data Models
 1. Company
    
 <img src="https://raw.githubusercontent.com/shubshinde/NexTusPlate/master/screenshots/company_data-model.png.png">
